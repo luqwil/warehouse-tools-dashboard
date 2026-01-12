@@ -1,7 +1,0 @@
-SELECT TOP (1000) [STOCKID]
-      ,[NUMBER]
-      ,[DATE]
-      ,[QTY]
-      ,[TYPE]
-      ,[REF]
-  FROM [micromktg].[dbo].[PRODUCT_STOCK]

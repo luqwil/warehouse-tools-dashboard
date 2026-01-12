@@ -1,6 +1,0 @@
-SELECT TOP (1000) [RECEIVING_ITEM_ID]
-      ,[RECEIVING_ID]
-      ,[number]
-      ,[qtyReceived]
-      ,[STOCKID]
-  FROM [micromktg].[dbo].[RECEIVING_ITEM]
