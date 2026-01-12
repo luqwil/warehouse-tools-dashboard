@@ -1,0 +1,6 @@
+SELECT TOP (1000) [RECEIVING_ID]
+      ,[SUPID]
+      ,[dateReceived]
+      ,[receivedBy]
+      ,[PORDNO]
+  FROM [micromktg].[dbo].[RECEIVING]

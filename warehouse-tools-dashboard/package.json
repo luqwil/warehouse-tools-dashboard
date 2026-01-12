@@ -1,0 +1,15 @@
+{
+  "name": "@micromarketing-services/warehouse-management-system",
+  "version": "0.0.1",
+  "main": "src/server.js",
+  "dependencies": {
+    "@micromarketing-utilities/database": "workspace:*",
+    "@micromarketing-utilities/logger": "workspace:*",
+    "hono": "^4.11.1"
+  },
+  "scripts": {
+    "build": "bun build src/server.js --outdir dist --minify --target bun",
+    "start": "NODE_ENV=development bun run --env-file=.env src/server.js",
+    "dev": "NODE_ENV=development bun run --watch --env-file=.env src/server.js"
+  }
+}
